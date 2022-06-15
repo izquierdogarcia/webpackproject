@@ -1,0 +1,8 @@
+{ //Babel entiende las particularidades del código y cómo vamos a trabajar con javascript
+    "presets": [
+        "@babel/preset-env"
+    ],
+    "plugins": [
+        "@babel/plugin-transform-runtime"
+    ]
+}

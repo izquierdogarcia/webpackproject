@@ -1,4 +1,4 @@
-const API = 'https://randomuser.me/api/';
+const API = process.env.API; //En vez de poner la url completa ponemos la variable de entorno que hemos creado en .env, y así estamos protegiendo nuestro código.
 
 const getData = async (id) => {
   const apiURl = id ? `${API}${id}` : API;
